@@ -1,0 +1,8 @@
+This is a collection of shell (Bash) scripts which main purpose is to manage
+Amazon EC2 instances through simple CLI interface. The basic implemented tasks
+are: automated backup with help of cron utility and manual restore with help of
+the menu-driven system.
+
+But remember the backups are not guaranteed to be consistent. This tools were
+initially designed to backup/recovery of the outstaff deveploper machines and
+must not be used for Database/Transactional and other servers.
